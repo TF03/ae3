@@ -1,6 +1,6 @@
 <?php
 
-$temp_debug = include'app/ini.php';
+$temp_debug = include'../app/ini.php';
 if ($temp_debug['debug'] == 1) {
     error_reporting(E_ALL);
     include 'debug.php';
